@@ -32,7 +32,7 @@ class _HomeJaiHindCollegePageState
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('JaiHindCollege Home'),
+        title: const Text('SOE RKU Home'),
         flexibleSpace: Container(
           decoration: BoxDecoration(
             gradient: LinearGradient(

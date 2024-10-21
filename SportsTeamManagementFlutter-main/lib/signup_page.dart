@@ -16,28 +16,18 @@ class _SignupPageState extends State<SignupPage> {
   final TextEditingController _passwordController = TextEditingController();
 
   List<String> collegeNames = [
-    //'Wilson College',
-    //'Kishinchand Chellaram College',
-    // 'Jai Hind College',
-    // 'St. Xavier’s College',
-    // 'ELPHINSTONE COLLEGE',
-    // 'H.R. College Of Commerce And Economics',
-    // 'Mithibai College',
-    // 'RD National college',
-    // 'Lala Lajpat Rai College',
     'SELECT CLG',
     'SOS',
     'SOM',
     'SOP',
     'SOE'
-
   ];
 
   String selectedCollege = 'SELECT CLG';
   String selectedUniversity = 'RK University';
   String selectedUserRole = 'User';
 
-  @override 
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
@@ -48,7 +38,7 @@ class _SignupPageState extends State<SignupPage> {
         backgroundColor: Colors.blue,
         elevation: 0,
       ),
-      body: Padding(
+      body: SingleChildScrollView(
         padding: const EdgeInsets.all(16.0),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -79,7 +69,7 @@ class _SignupPageState extends State<SignupPage> {
             _buildDropdown(
               'University',
               selectedUniversity,
-              ['RK University',],
+              ['RK University'],
                   (String? value) {
                 setState(() {
                   selectedUniversity = value ?? '';

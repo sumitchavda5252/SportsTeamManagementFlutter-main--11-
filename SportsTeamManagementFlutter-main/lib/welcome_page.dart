@@ -1,13 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import 'home_page.dart';
-import 'login_page.dart';
+import 'home_page.dart'; // Correct path for home page
+import 'login_page.dart'; // Correct path for login page
+import 'generated/admin_panel.dart'; // Correct path for admin panel (adjust as per your project structure)
+import 'generated/event_management.dart';
+import 'generated/user_management.dart';
+import 'generated/schedule_management.dart';
+
 
 class WelcomePage extends StatelessWidget {
   final FirebaseAuth _auth = FirebaseAuth.instance;
   final GoogleSignIn googleSignIn = GoogleSignIn(
-    clientId: '881093348947-l9dfmtvrvtvvsc6u69u1vcf4776r83ta.apps.googleusercontent.com',
+   //clientId: '881093348947-l9dfmtvrvtvvsc6u69u1vcf4776r83ta.apps.googleusercontent.com',
     scopes: ['email'], // Add scopes if needed
   );
 
@@ -151,6 +156,33 @@ class WelcomePage extends StatelessWidget {
                     color: Colors.white,
                     fontSize: 16,
                     fontWeight: FontWeight.bold,
+                  ),
+                ),
+              ),
+            ),
+            const SizedBox(height: 10),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => AdminPanel()), // Navigate to Admin Panel
+                );
+              },
+              style: ElevatedButton.styleFrom(
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(15),
+                ),
+                backgroundColor: const Color.fromARGB(255, 169, 47, 163),
+              ),
+              child: Container(
+                width: 250,
+                height: 50,
+                alignment: Alignment.center,
+                child: const Text(
+                  'Admin Login',
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 16,
                   ),
                 ),
               ),

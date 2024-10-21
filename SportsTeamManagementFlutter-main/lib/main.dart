@@ -9,7 +9,7 @@ import 'home_page.dart';
 import 'signup_page.dart';
 import 'HomeElphinstoneCollegePage.dart';
 import 'HomeHRCollegePage.dart';
-import 'HomeJaiHindCollegePage.dart';
+import 'SOE.dart';
 import 'HomeKishinchandChellaramPage.dart';
 import 'HomeLalaLajpatRaiCollegePage.dart';
 import 'HomeMithibaiCollegePage.dart';
@@ -50,7 +50,7 @@ class MyApp extends StatelessWidget {
     return Consumer<ThemeProvider>(
       builder: (context, themeProvider, child) {
         return MaterialApp(
-          title: 'My Flutter App',
+          title: 'STM App',
           debugShowCheckedModeBanner: false, // Disable debug banner
           theme: ThemeData.light(), // Set initial theme to light
           darkTheme: ThemeData.dark(),
