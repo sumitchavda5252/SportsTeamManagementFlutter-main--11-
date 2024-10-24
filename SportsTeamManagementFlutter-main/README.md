@@ -18,24 +18,20 @@ Star⭐ the repo if you like what you see 😉.
 
 | Events | Dashboard |
 |------|-------|
-|<img src="events.png" width="400">|<img src="dashboard.png" width="400">|
+|<img src="![WhatsApp Image 2024-10-24 at 10 53 45 PM](https://github.com/user-attachments/assets/90efe839-5e21-41ba-95a8-e7147aad7def)
 
 | Login1 | Welcome |
 |------|-------|
-|<img src="login1.png" width="400">|<img src="welcome.png" width="400">|
-
-| OTP |
-|------|
-|<img src="otp.png" width="400">|
+|![WhatsApp Image 2024-10-24 at 10 53 49 PM](https://github.com/user-attachments/assets/0cc79ab9-0654-4d4f-bf0f-a7f5a68dd8f0)
+|
+|
 
 ## ✨ Requirements
-- Any Operating System (i.e., MacOS X, Linux, Windows)
+
 - Any IDE with Flutter SDK installed (i.e., IntelliJ, Android Studio, VSCode, etc.)
 - A little knowledge of Dart and Flutter
 - A brain to think 🤓🤓
 
-## 🤓 Author(s)
-**Vishesh Sanghvi** [![Twitter Follow](https://img.shields.io/twitter/follow/alexlegend786.svg?style=social)](https://twitter.com/alexlegend786)
 
 ## Getting Started
 
@@ -43,27 +39,8 @@ This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference. 
-`
 Feel free to use, modify, and distribute this project! If you have any questions or suggestions, feel free to reach out. Happy coding! 🚀
 
-### Installation
-1. Clone the repository:
-git clone https://github.com/yourusername/SportsTeamManagementSystem.git
-
-2. Navigate to the project directory:
-
-3. Fetch dependencies using : flutter pub get
-
-
-### Running the project
-1. Ensure that an emulator/device is running or connected to your machine.
-2. Run the project using Flutter
 
 
 
