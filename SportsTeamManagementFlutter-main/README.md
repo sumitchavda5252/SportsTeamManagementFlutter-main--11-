@@ -6,26 +6,6 @@ Flutter representation of a Sports Team Management app UI.
 
 Star⭐ the repo if you like what you see 😉.
 
-**Vishesh Sanghvi** [![Twitter Follow](https://img.shields.io/twitter/follow/alexlegend786.svg?style=social)](https://twitter.com/alexlegend786)
-
-## 📸 Screenshots
-
-<img src="aboutus.png"/>
-
-| About Us | Team |
-|------|-------|
-|<img src="team.png" width="400">|<img src="settings.png" width="400">|
-
-| Events | Dashboard |
-|------|-------|
-||<img src="team.png" width="400">|<img src="![WhatsApp Image 2024-10-24 at 10 53 45 PM](https://github.com/user-attachments/assets/597ff49d-a1b6-4874-b54a-f9deede3010c)
- width="440">|
-
-
-| Login1 | Welcome |
-|------|-------|
-|| width="400">|<img src="![WhatsApp Image 2024-10-24 at 10 53 49 PM](https://github.com/user-attachments/assets/bbf37ec9-a1b8-4ef7-a220-3e94a3ccb15f)
-" width="400">|
 
 |
 |
