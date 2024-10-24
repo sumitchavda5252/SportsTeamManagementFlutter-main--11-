@@ -24,7 +24,9 @@ Star⭐ the repo if you like what you see 😉.
 
 | Login1 | Welcome |
 |------|-------|
-|![WhatsApp Image 2024-10-24 at 10 53 49 PM](https://github.com/user-attachments/assets/0cc79ab9-0654-4d4f-bf0f-a7f5a68dd8f0)
+||<img src="team.png" width="400">|<img src="![WhatsApp Image 2024-10-24 at 10 53 49 PM](https://github.com/user-attachments/assets/bbf37ec9-a1b8-4ef7-a220-3e94a3ccb15f)
+" width="400">|
+
 |
 |
 
