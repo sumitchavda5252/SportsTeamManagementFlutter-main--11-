@@ -18,7 +18,9 @@ Star⭐ the repo if you like what you see 😉.
 
 | Events | Dashboard |
 |------|-------|
-|<img src="![WhatsApp Image 2024-10-24 at 10 53 45 PM](https://github.com/user-attachments/assets/90efe839-5e21-41ba-95a8-e7147aad7def)
+||<img src="team.png" width="400">|<img src="![WhatsApp Image 2024-10-24 at 10 53 45 PM](https://github.com/user-attachments/assets/597ff49d-a1b6-4874-b54a-f9deede3010c)
+" width="400">|
+
 
 | Login1 | Welcome |
 |------|-------|
